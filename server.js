@@ -4,6 +4,9 @@ const connectDB = require('./config/db');
 const app = express();
 connectDB();
 
+// Middleware to parse request body
+app.use(express.json({ extended: false }));
+
 app.get('/', (req, res) => res.send("Welcome to API, it's running..."));
 
 app.use('/api/v1/auth', require('./routes/api/auth'));
