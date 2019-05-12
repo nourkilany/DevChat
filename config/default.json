@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://nourkilany:wallbase1qaz@merncluster-0rowl.mongodb.net/test?retryWrites=true"
+  "mongoURI": "mongodb+srv://nourkilany:wallbase1qaz@merncluster-0rowl.mongodb.net/test?retryWrites=true",
+  "jwtSecret": "mysecrettoken"
 }
