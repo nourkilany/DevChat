@@ -19,4 +19,4 @@ app.use('/api/v1/posts', require('./routes/api/posts'));
 const PORT = process.env.PORT || 5000;
 
 // eslint-disable-next-line no-console
-app.listen(PORT, () => console.log(`Server started on port ${PORT} ...`));
+app.listen(PORT, () => console.log(`🛡️  Server listening on port: ${PORT} 🛡️`));
