@@ -1,10 +1,12 @@
 const express = require('express');
+const logger = require('morgan');
 const connectDB = require('./config/db');
 
 const app = express();
 connectDB();
 
-// Middleware to parse request body
+app.use(logger('dev'));
+
 app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => res.send("Welcome to API, it's running..."));

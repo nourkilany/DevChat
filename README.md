@@ -3,7 +3,7 @@
 > Social platform for developers.
 
 [![MIT license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://opensource.org/licenses/MIT)
-![Code Style](https://img.shields.io/badge/code--style-eslint-blue.svg)
+[![airbnb-style](https://flat.badgen.net/badge/eslint/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
 
 ## Release History
 
